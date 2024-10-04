@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(Resimler/pexels-veeterzy-303383.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(172, 162, 162, 0.501);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+.navbar .logo a img{
+    display: inline-block;
+    height: 70px;
+    width: 85px;
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    line-height: 90px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgba(206, 35, 35, 0.759);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    font-weight: bold;
+    color: black;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 380px;
+}
+
+.buttons button{
+    height: 40px;
+    width: 67px;
+    font-size: 15px;
+    color: #008cff;
+    background: rgb(28, 28, 109);
+    border: 1px solid rgb(11, 37, 165);
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    background: #fff;
+    transition: 0.6s;
+}
